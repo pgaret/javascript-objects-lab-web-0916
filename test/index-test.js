@@ -39,6 +39,7 @@ describe('Objects', function() {
       var obj = { prop: 1 }
 
       expect(deleteFromObjectByKey(obj, 'prop')).toMatch({})
+      
       expect(obj).toMatch({ prop: 1 })
     })
   })
